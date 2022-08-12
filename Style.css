@@ -3,12 +3,24 @@
     padding: 0;
     font-family: 'Roboto', serif;
     background-color: #A2CFCC;
-    
 }
+
+/*
+.base
+{
+    border: 2px solid;
+    max-width: auto;
+    margin: auto;
+}
+*/
 
 header {
     
     text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 .subtittle {
@@ -25,6 +37,7 @@ li {
     max-width: 200px;
     list-style-type: none;
     text-align: center;
+    text-shadow: gray 5px 5px 5px;
     font-size: 16px;
     border: 1px solid grey;
     margin: 10px auto;
