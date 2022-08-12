@@ -27,9 +27,9 @@ li {
     text-align: center;
     font-size: 16px;
     border: 1px solid grey;
-    margin: 10px 500px;
+    margin: 10px auto;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 a {
