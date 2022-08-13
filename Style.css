@@ -23,6 +23,7 @@ header {
     border: ;
     text-align: center;
     padding: 5px;
+}
 
 h1 {
     text-transform: uppercase;
@@ -32,7 +33,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-img {
+.logotipo {
     border: 5px solid grey;
     margin: 20px;
     border-radius: 50%;
