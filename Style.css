@@ -3,6 +3,10 @@
     padding: 0;
     font-family: 'Roboto', serif;
     background-color: #A2CFCC;
+    background-image: url(fundo-2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
 
 /*
@@ -26,32 +30,39 @@ header {
 
 h1 {
     text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
 }
 
 .subtittle {
     margin-bottom: 20px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
 }
 
 .logotipo {
-    border: 5px solid grey;
+    border: 8px solid rgb(255, 255, 255);
     margin: 20px;
     border-radius: 50%;
+    
 }
 
 li {
     max-width: 200px;
     list-style-type: none;
     text-align: center;
-    text-shadow: gray 5px 5px 5px;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
     font-size: 16px;
-    border: 1px solid grey;
+    border: 1px solid rgb(255, 255, 255);
     margin: 10px auto;
     padding: 10px;
     border-radius: 20px;
+    -webkit-text-stroke: 1px rgb(44, 44, 44);
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
