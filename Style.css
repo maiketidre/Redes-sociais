@@ -4,9 +4,10 @@
     font-family: 'Silkscreen', cursive;
     background-color: #A2CFCC;
     background-image: url(fundo-2.png);
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-size: cover;
     color: white;
+
 }
 
 /*
@@ -31,11 +32,13 @@ header {
 h1 {
     text-transform: uppercase;
     color: white;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(255, 255, 255); 
+      
 }
 
 .subtittle {
     margin-bottom: 20px;
+
 }
 
 .logotipo {
