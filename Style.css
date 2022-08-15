@@ -32,12 +32,10 @@ h1 {
     text-transform: uppercase;
     color: white;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
 }
 
 .subtittle {
     margin-bottom: 20px;
-    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
 }
 
 .logotipo {
