@@ -1,21 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Silkscreen', cursive;
-   
-    background-image: url(fundo-2.png);
-    background-attachment:fixed;
-    background-size: cover;
-    color: white;
+
 }
 
 body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    margin: 0;
+    font-family: 'Silkscreen', cursive;
+    background-image: url(fundo-2.png);
+    background-attachment:fixed;
+    background-size: cover;
+    color: white;
 }
 
+#container {
+    padding: 30px;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    
+    box-shadow: 0 0 1em black;
+}
 
 .base{
     
@@ -50,6 +56,7 @@ h1 {
     border: 8px solid rgb(255, 255, 255);
     margin: 20px;
     border-radius: 50%;
+    box-shadow: 0 0 1em black;
     
 }
 
