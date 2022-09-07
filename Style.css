@@ -19,7 +19,7 @@ body {
     padding: 30px;
     border-radius: 30px;
     backdrop-filter: blur(5px);
-    
+    -webkit-box-filter: inset blur(5px);
     box-shadow: 0 0 1em black;
 }
 
