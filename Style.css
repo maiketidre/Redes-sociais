@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -15,13 +14,40 @@ body {
     color: white;
 }
 
-#container {
+.container {
     padding: 30px;
     border-radius: 30px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+
+    /*backdrop-filter: blur(5px);
     box-shadow: 0 0 1em black;
+    -webkit-backdrop-filter: blur(5px);*/
+    position: relative;
+    background-color: #26262E ;
 }
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height:603px;
+    width: 314px;
+    border-radius: 30px;
+    background: linear-gradient(#00408a, #b90075, #f5dc00);
+    z-index: -1;
+    animation: animate 3s linear infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg) brightness(100%) blur(10px);
+    }
+    100% {
+        filter: hue-rotate(360deg) brightness(100%) blur(10px);
+    }
+}
+
 
 .base{
     
